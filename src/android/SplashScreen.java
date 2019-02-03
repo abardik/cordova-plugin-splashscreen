@@ -102,7 +102,7 @@ public class SplashScreen extends CordovaPlugin {
         cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                getView().setVisibility(View.INVISIBLE);
+                //getView().setVisibility(View.INVISIBLE);
             }
         });
         int drawableId = getSplashId();
@@ -112,7 +112,7 @@ public class SplashScreen extends CordovaPlugin {
 
         if (firstShow) {
             boolean autoHide = preferences.getBoolean("AutoHideSplashScreen", true);
-            showSplashScreen(autoHide);
+            //showSplashScreen(autoHide);
         }
 
         if (preferences.getBoolean("SplashShowOnlyFirstTime", true)) {
