@@ -112,7 +112,7 @@ public class SplashScreen extends CordovaPlugin {
 
         if (firstShow) {
             boolean autoHide = preferences.getBoolean("AutoHideSplashScreen", true);
-            showSplashScreen(autoHide);
+            //showSplashScreen(autoHide);
         }
 
         if (preferences.getBoolean("SplashShowOnlyFirstTime", true)) {
